@@ -115,10 +115,12 @@ function liveFind(requestDef) {
   }
   var skip = parseInt(requestDef.skip, 10) || 0;
   var limit = parseInt(requestDef.limit, 10) || 0;
+  var initialLimit = parseInt(requestDef.initialLimit, 10) || 0;
   var findRequest = {
     selector: selector,
     // sort: sort,
-    fields: fields
+    fields: fields,
+    initialLimit: initialLimit,
   };
 
   var ready = db.find(findRequest)
