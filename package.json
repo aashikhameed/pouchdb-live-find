@@ -35,7 +35,7 @@
     "pouchdb-selector-core": "^6.2.0"
   },
   "peerDependencies": {
-    "pouchdb-find": "^6.2.0"
+    "pouchdb-find": "^9.0.0"
   },
   "devDependencies": {
     "browserify": "^14.3.0",
