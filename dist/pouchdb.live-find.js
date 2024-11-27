@@ -118,7 +118,7 @@ function liveFind(requestDef) {
   var initialLimit = parseInt(requestDef.initialLimit, 10) || 0;
   var findRequest = {
     selector: selector,
-    // sort: sort,
+    sort: sort,
     fields: fields,
     initialLimit: initialLimit,
   };
