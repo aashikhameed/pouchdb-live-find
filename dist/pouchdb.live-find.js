@@ -125,6 +125,7 @@ function liveFind(requestDef) {
 
   var ready = db.find(findRequest)
     .then(function(results) {
+      docList = results.docs;
       results.docs.forEach(function(doc) {
         addResult(doc);
       });
