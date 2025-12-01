@@ -6,6 +6,7 @@
   "scripts": {
     "test": "gulp test-node"
   },
+  "files": ["lib", "dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/colinskow/pouchdb-live-find.git"
